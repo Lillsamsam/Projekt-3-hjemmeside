@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 50px;
+
+}
+nav{
+    width: 100%;
+    background: #EDAFB1;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+
+}
+
+.logo{
+       width: 80px;
+       height: 80px;
+       border-radius: 50%;
+       overflow: hidden;
+       margin-top: -6px;
+   }
+.portrait{
+  float: right;
+  display: flex;
+  margin-right: 47%;
+  margin-left: 5%;
+  width: 1%;
+  height: 600px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding: 20px;
+    width: 250px;
+    display: block;
+    text-decoration: none;
+    color: #FAF4F4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+
+}
+#section1{
+    height: 1500px;
+  background-image: url("CLOUDS.jpg");
+    display: inline-block;
+    width: 100%;
+    color: #EDAFB1;
+}
+
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+.item5 { grid-area: e; }
+
+.grid-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-areas:
+  "a b c"
+  "d e";
+  gap: 10px;
+  padding: 10px;
+  }
+  .modeling{
+      grid-area: a;
+      width: 312px;
+      height: 500px;
+
+  }
+  .codning{
+      grid-area: b;
+      width: 500px;
+      height: 500px;
+  }
+
+.illustrator{
+    grid-area: c;
+    width: 500px;
+    height: 500px;
+}
+
+.animation{
+  grid-area: d;
+  width: 500px;
+  height:500px;
+
+}
+.plakat{
+    grid-area: e;
+    width: 500px;
+    height: 1500px;
+}
+
+#section2{
+    height: 3500px;
+    background-image: url("BCLOUDS.jpg");
+    display: inline-block;
+    width: 100%;
+    color: #96C5B3;
+}
+
+.grid1{grid-area: a;}
+.grid2{grid-area: b;}
+.grid3{grid-area: c;}
+.grid4{grid-area: d;}
+.grid5{grid-area: e;}
+.grid6{grid-area: f;}
+.grid7{grid-area: g;}
+.grid8{grid-area: h;}
+.grid9{grid-area: i;}
+.grid10{grid-area: j;}
+.grid11{grid-area: k;}
+
+
+
+.grideksempler{
+display:grid;
+grid-template-areas:
+'a a'
+'b c'
+'d e'
+'f g'
+'h i'
+'j k';
+}
+.modeling{
+    grid-area: b;
+
+
+}
+.codning{
+    grid-area: d;
+
+}
+
+
+.plakat{
+    grid-area: f;
+
+
+}
+.illustrator{
+  grid-area: h;
+
+}
+
+
+#section3{
+    height: 1100px;
+    background-image: url("CLOUDS.jpg");
+    display: inline-block;
+    width: 100%;
+    color: #EDAFB1;
+}
+
+.ommig-text{
+  margin-left: 7%;
+  margin-right: 4%;
+  font-size: 65%;
+}
+#section4{
+    height: 700px;
+    background-image: url("BCLOUDS.jpg");
+    display: inline-block;
+    width: 100%;
+    color: #96C5B3;
+}
+.contact-text{
+  margin-left: 7%;
+}
+h1{
+    margin: 150px;
+    text-align: center;
+    padding: 0;
+}
